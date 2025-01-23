@@ -1,0 +1,48 @@
+header{
+    background: rgb(9, 9, 79);
+}   
+ul{
+    list-style: none;
+}
+.title{
+    background: blue;
+    color:#fff;
+    padding: 5px;
+    display: inline-block;
+    position: relative;
+}
+.title::before{
+    content: ' ';
+    position: absolute;
+    left: 100%;
+    top: 0;
+    width: 0px;
+    height: 0%;
+    border: 20px solid;
+    border-color: white white rgb(44, 15, 229) rgba(57, 18, 210, 0.299);
+}
+.tour{
+    position: relative;
+    overflow: hidden;
+    h4{
+        position:absolute;
+        color: #fff;
+        left: 40px;
+        bottom: 40px;
+        right: 30px;
+        justify-content: left;
+    }
+}
+.box{
+    position: relative;
+    overflow: hidden;
+    h2{
+        position:absolute;
+        color: #fff;
+        left: 20px;
+        bottom: 40px;
+        right:500px ;
+        justify-content: left;
+    
+    }
+}
